@@ -1,2 +1,2 @@
 //a script that deletes a document in school collection
-db.school.remove({name: "Holberton school"})
+db.school.deleteMany({name: "Holberton school"})
